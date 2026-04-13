@@ -85,6 +85,43 @@ cd openia
 Рабочая автоматизация лежит в отдельном публичном навыке:
 [daily-dev-log-skill](https://github.com/warment/daily-dev-log-skill)
 
+## 中文
+
+OpenIA 是一个以 Codex 为中心的实践实验室，用来做 AI 工作流、每日开发日志和基于证据的网络诊断。
+
+它只有一个目标：把日常工程工作变得可重复、可观察，并且更容易在第二天继续下去。
+
+### 亮点
+
+- `daily-dev-log-skill` 会把 Git 活动和工作区状态变成真实的每日日志。
+- 网络诊断脚本会以可重复的格式收集路由、延迟和 ISP 证据。
+- 项目上下文保存在普通文件里，不只依赖聊天历史。
+- 整个仓库偏向新手友好：命令少、输出清楚、没有隐藏状态。
+
+### 公开内容
+
+- 公开技能仓库：[daily-dev-log-skill](https://github.com/warment/daily-dev-log-skill)
+- 每日工作日志流程：增量收集、压缩、归档、交接说明
+- ISP 诊断：带路由器信息的报告和路径分析
+
+### 为什么存在这个仓库
+
+这不是演示玩具，而是给真实任务用的工作笔记。它展示了如何：
+
+1. 不靠手写也能保留每天的进度记录，
+2. 用证据而不是感觉来诊断网络问题，
+3. 把可复用的 Codex 技能沉淀下来并分享给别人。
+
+### 快速开始
+
+```bash
+git clone https://github.com/warment/openia.git
+cd openia
+```
+
+真正可运行的自动化在单独的公开技能仓库里：
+[daily-dev-log-skill](https://github.com/warment/daily-dev-log-skill)
+
 ## Notes
 
 This public repo is intentionally curated. It focuses on the showcase layer and avoids publishing local logs or machine-specific diagnostics.
